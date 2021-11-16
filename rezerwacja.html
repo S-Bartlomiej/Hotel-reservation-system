@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rezerwacja</title>
+    <meta author='Bartłomiej Stypuła'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rezerwacja-zmiana.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id='kontener'>
+
+        <div id='menu-obszar'>
+            <div id='menu'>
+
+                <a href='./start.html'>
+                    <div class='menu-przycisk'>
+                        Start
+                    </div>
+                </a>
+                <a href='./galeria.html'>
+                    <div class='menu-przycisk' id='galeria'>
+                        Galeria
+                    </div>
+                </a>
+                <a href='./rezerwacja.html'>
+                    <div class='menu-przycisk' id='rezerwacja'>
+                        Rezerwacja
+                    </div>
+                </a>
+                <a href='./kontakt.html'>
+                    <div class='menu-przycisk' id='kontakt'>
+                        Kontakt
+                    </div>
+                </a>
+
+            </div>
+                </div>
+
+                
+
+                <div id='rezerwacja-obszar'>
+                    <div id="rezerwacja-sterowanie">
+                        
+                        <div id='rezerwacja-napis-obszar'>
+                        <div id='rezerwacja-napis'>
+                        <div class='napis'>Data przyjazdu</div>
+                        <div class='napis'>Data wyjazdu</div>
+                        <div class='napis'>Numer pokoju</div>
+                        <div class='napis'>Liczba osób</div>
+                        </div>
+                        </div>
+
+                        <div id='formularz-obszar'>
+                            <div id='formularz'>
+                        <input type="date" id="przyjazd" class='f'>
+                        <input type="date" id="wyjazd" class='f' id='wyjazd'>
+                        <input type="number" id="nrp" class='f'>
+                        <input type="number" id="liczba-osob" class='f'>
+                        <br>
+                        <br>
+                        <br>
+                        <div id=rz-obszar>
+                        <input type="submit" value="Rezerwuj" id="wyslij" class='f'>
+                        </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div id='rezerwacja-obszar-telefon'>
+
+                    <div id='rezerwacja-telefon'>
+
+                        <div class='napis'>Data przyjazdu</div>
+                        <input type="date" id="przyjazd-telefon" class='f'>
+                        <div class='napis'>Data wyjazdu</div>
+                        <input type="date" id="wyjazd-telefon" class='f' id='wyjazd'>
+                        <div class='napis'>Numer pokoju</div>
+                        <input type="text" id="nrp-telefon" class='f'>
+                        <div class='napis'>Liczba osób</div>
+                        <input type="text" id="liczba-osob-telefon" class='f'>
+                    </div>
+
+                </div>
+
+                <div id=rz-obszar-telefon>
+                    <input type="submit" value="Rezerwuj" id="wyslij-telefon" class='f'>
+                    </div>
+
+                    <div id='rezerwacje-gotowe-obszar'>
+                    <div id='rezerwacje-gotowe'>
+                        <h3 id="wynik"></h3>
+                        <div id="wiadomosc"></div>
+                        <ul id="r">
+                        
+                        </ul>
+                    </div>
+                    </div>
+
+    </div>
+
+        <script src="rezerwacja.js"></script>
+</body>
+
+</html>

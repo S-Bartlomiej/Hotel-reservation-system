@@ -1,0 +1,727 @@
+@media (min-width: 1441px) and (max-width: 7680px)
+{
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
+#kontener
+{
+    width: 100%;
+    height: 1100px;
+    float: left;
+    background-image: url('./Tla/rezerwacja1j.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu-obszar
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 3%;
+
+}
+
+#menu
+{
+    width: 950px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-przycisk
+{
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid white;
+    background-color: pink;
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-left: 75px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    text-align: center
+}
+
+.menu-przycisk:hover
+{
+    transform: scale(1.3,1.3);
+    border: 3px solid #e6486d;
+    color: #FF001A;
+    font-weight: bold;
+}
+
+#galeria{
+    width: 150px;
+}
+
+#rezerwacja{
+    width: 210px;
+}
+
+#kontakt
+{
+    width: 150px;
+    background-color: dimgray;
+    border: 3px solid white;
+}
+
+#kontakt:hover
+{
+    border: 3px solid #e6486d;
+}
+
+#rezerwacja-obszar
+{
+    width: 100%;
+    position: relative;
+    top: 15%;
+}
+
+#rezerwacja-sterowanie
+{
+    width: 750px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rezerwacja-napis-obszar
+{
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    
+}
+
+#rezerwacja-napis
+{
+    width: 100%;
+    text-align: center;
+}
+
+.napis{
+    font-size: 30px;
+    width: 130px;
+    float: left;
+    color: white;
+    margin-left: 50px;
+}
+
+#formularz-obszar {
+    
+}
+
+#formularz{
+    width: 100%;
+    float: left;
+    
+    margin-top: 20px;
+}
+
+.f{
+    background-color: transparent;
+    font-size: 30px;
+    margin-left: 70px;
+    width: 65px;
+    border: none;
+}
+
+#wyjazd{
+    margin-left: 112px;
+}
+
+#nrp
+{
+    color: white;
+    width: 120px;
+    border: 3px solid dimgray;
+    border-radius: 15px;
+    margin-left: 95px;
+    text-align: center;
+}
+
+#liczba-osob
+{
+    color: white;
+    width: 120px;
+    border: 3px solid dimgray;
+    border-radius: 15px;
+    margin-left: 57px;
+    text-align: center;
+    
+}
+
+#wyslij
+{
+    width: 160px;
+    color: white;
+    border: 3px solid white;
+    background-color: dimgray;
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#wyslij:hover
+{
+    color: #FF001A;
+    border: 3px solid #FF001A;
+    transform: scale(1.2,1.2);
+}
+
+#rz-obszar
+{
+    width: 87%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+#rezerwacje-gotowe-obszar
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 7%;
+}
+
+#rezerwacje-gotowe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.lid {
+    width: 300px;
+    height: 200px;
+    background-image: url('./Zdjęcia/Rezerwacja/rezerwacja1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    list-style: none;
+    transition-duration: 0.5s;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.lid h3
+{
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    
+}
+
+.lid div
+{
+    margin-left: 20px;
+    width: 100%;
+    height: 78.4px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.lid:hover {
+    transform: scale(1.2,1.2);
+}
+
+
+#wiadomosc
+{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+    display: none;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FF001A;
+    border: 3px solid dimgray;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+#rezerwacja-obszar-telefon
+{
+    display: none;
+}
+
+#rz-obszar-telefon
+{
+    display: none;
+}
+
+}
+
+@media (min-width: 1px) and (max-width: 1000px)
+
+{
+
+#rezerwacja-obszar
+{
+    display: none;
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./Tla/rezerwacjaj.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#kontener
+{
+    width: 100%;
+    float: left;
+    
+}
+
+#menu-obszar
+{
+    width: 100%;
+    text-align: center;
+}
+
+#menu
+{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+.menu-przycisk
+{
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid pink;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    text-align: center;
+    
+}
+
+#galeria{
+    width: 150px;
+    display: none;
+}
+
+#rezerwacja{
+    width: 210px;
+    display: none;
+}
+
+#kontakt
+{
+    width: 150px;
+    background-color: dimgray;
+    border: 3px solid white;
+    display: none;
+}
+
+#rezerwacja-obszar-telefon
+{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 2%;
+}
+
+#rezerwacja-telefon
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.napis
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.f
+{
+    border: 3px solid pink;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+#nrp-telefon
+{
+    width: 75px;
+    text-align: center;
+}
+
+#liczba-osob-telefon
+{
+    width: 75px;
+    text-align: center; 
+}
+
+#rz-obszar-telefon
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+
+#wyslij-telefon
+{
+    font-size: 40px;
+}
+
+.lid {
+    width: 250px;
+    height: 210px;
+    background-image: url('./Zdjęcia/Rezerwacja/rezerwacja1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    list-style: none;
+    border: 3px solid pink;
+    margin-top: 50px;
+    
+    
+}
+
+.lid h3
+{
+    
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    
+}
+
+.lid div
+{
+    width: 100%;
+    height: 78.4px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#wiadomosc
+{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    display: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF001A;
+    border: 3px solid dimgray;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    top: 60%;
+}
+
+#rezerwacje-gotowe-obszar
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 10%;
+    
+}
+
+#rezerwacje-gotowe
+{
+    
+   width: 325px;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+
+#rz-obszar-telefon 
+{
+    margin-top: 50px;
+}
+
+}
+
+@media (min-width: 1000px) and (max-width: 1440px)
+
+{
+    #rezerwacja-obszar
+{
+    display: none;
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./Tla/rezerwacjaj.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 90%;
+    background-attachment: fixed;
+}
+
+#kontener
+{
+    width: 100%;
+    float: left;
+}
+
+#menu-obszar
+{
+    width: 100%;
+    text-align: center;
+}
+
+#menu
+{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+.menu-przycisk
+{
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid pink;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    text-align: center;
+    
+}
+
+#galeria{
+    width: 150px;
+    display: none;
+}
+
+#rezerwacja{
+    width: 210px;
+    display: none;
+}
+
+#kontakt
+{
+    width: 150px;
+    background-color: dimgray;
+    border: 3px solid white;
+    display: none;
+}
+
+#rezerwacja-obszar-telefon
+{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 2%;
+}
+
+#rezerwacja-telefon
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.napis
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.f
+{
+    border: 3px solid pink;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+#nrp-telefon
+{
+    width: 75px;
+    text-align: center;
+}
+
+#liczba-osob-telefon
+{
+    width: 75px;
+    text-align: center; 
+}
+
+#rz-obszar-telefon
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+
+#wyslij-telefon
+{
+    font-size: 40px;
+}
+
+.lid {
+    width: 250px;
+    height: 210px;
+    background-image: url('./Zdjęcia/Rezerwacja/rezerwacja1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    list-style: none;
+    border: 3px solid pink;
+    margin-top: 50px;
+    
+    
+}
+
+.lid h3
+{
+    
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    
+}
+
+.lid div
+{
+    width: 100%;
+    height: 78.4px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#wiadomosc
+{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    display: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF001A;
+    border: 3px solid dimgray;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    top: 60%;
+}
+
+#rezerwacje-gotowe-obszar
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 10%;
+    
+}
+
+#rezerwacje-gotowe
+{
+    
+   width: 325px;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+#rz-obszar-telefon 
+{
+    margin-top: 50px;
+}
+
+}

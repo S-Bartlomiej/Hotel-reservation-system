@@ -1,0 +1,588 @@
+@media (min-width: 1441px) and (max-width: 7680px)
+{
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('./Tla/1j.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#kontener
+{
+    width: 100%;
+    float: left;
+}
+
+#menu-obszar
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 3%;
+}
+
+#menu
+{
+    width: 950px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-przycisk
+{
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid dimgray;
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-left: 75px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    text-align: center
+}
+
+.menu-przycisk:hover
+{
+    transform: scale(1.3,1.3);
+    border: 3px solid #e6486d;
+    color: #FF001A;
+    font-weight: bold;
+}
+
+#galeria{
+    width: 150px;
+}
+
+#rezerwacja{
+    width: 210px;
+}
+
+#kontakt
+{
+    width: 150px;
+    background-color: dimgray;
+    border: 3px solid white;
+}
+
+#kontakt:hover
+{
+    border: 3px solid #e6486d;
+}
+
+#galeria-obszar
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 3%;
+}
+
+#galeria-sterowanie
+{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#galeria-sterowanie h1
+{
+    color: white;
+    text-align: center;
+}
+
+.zdjecie {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 3px solid dimgray;
+    opacity: 50%;
+    transition: all 0.5s;
+}
+
+.zdjecie:hover
+{
+    opacity: 1;
+    transform: scale(1.2,1.2);
+    border: 3px solid #FF001A;
+}
+
+#telefon
+{
+    display: none;
+}
+
+}
+
+@media (min-width: 1px) and (max-width: 425px)
+{
+    *
+{
+    box-sizing: border-box;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('./Tla/1j.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#kontener
+{
+    width: 100%;
+    float: left;
+}
+
+#menu-obszar
+{
+    width: 100%;
+    text-align: center;
+}
+
+#menu
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+.menu-przycisk
+{
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid pink;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#galeria{
+    width: 150px;
+    display: none;
+}
+
+#rezerwacja{
+    width: 210px;
+    display: none;
+}
+
+#kontakt
+{
+    width: 150px;
+    background-color: dimgray;
+    border: 3px solid white;
+    display: none;
+}
+
+#galeria-obszar
+{
+    width: 100%;
+    text-align: center;
+}
+
+#galeria-sterowanie h1
+{
+    color: white;
+    margin-top: 70px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#galeria-sterowanie img
+{
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 3px solid pink;
+    
+}
+
+#zdjo 
+    {
+        margin-bottom: 50px;
+    }
+
+
+#telefon{
+    display: none;
+}
+
+}
+
+
+@media (min-width: 425px) and (max-width: 504px)
+
+{
+    *
+    {
+        box-sizing: border-box;
+        font-family: 'Grechen Fuemen', cursive;
+    }
+    
+    body
+    {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #kontener
+    {
+        width: 100%;
+        float: left;
+        background-image: url('./Tla/1j.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #menu-obszar
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #menu
+    {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #menu a{
+        text-decoration: none;
+    }
+    
+    .menu-przycisk
+    {
+        width: 120px;
+        height: 80px;
+        background-color: transparent;
+        border: 3px solid pink;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        padding: 15px;
+        border-radius: 15px;
+        transition: all 0.3s;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #galeria{
+        width: 150px;
+        display: none;
+    }
+    
+    #rezerwacja{
+        width: 210px;
+        display: none;
+    }
+    
+    #kontakt
+    {
+        width: 150px;
+        background-color: dimgray;
+        border: 3px solid white;
+        display: none;
+    }
+    
+    #galeria-obszar
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #galeria-sterowanie h1
+    {
+        color: white;
+        margin-top: 70px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    #galeria-sterowanie img
+    {
+        margin-top: 50px;
+        border-radius: 15px;
+        border: 3px solid pink;
+    }
+
+    #zdjo 
+    {
+        margin-bottom: 50px;
+    }
+    
+    #telefon{
+        display: none;
+    }
+}
+
+@media (min-width: 504px) and (max-width: 767px)
+{
+    *
+    {
+        box-sizing: border-box;
+        font-family: 'Grechen Fuemen', cursive;
+    }
+    
+    body
+    {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #kontener
+    {
+        width: 100%;
+        float: left;
+        background-image: url('./Tla/1j.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #menu-obszar
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #menu
+    {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #menu a{
+        text-decoration: none;
+    }
+    
+    .menu-przycisk
+    {
+        width: 120px;
+        height: 80px;
+        background-color: transparent;
+        border: 3px solid pink;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        padding: 15px;
+        border-radius: 15px;
+        transition: all 0.3s;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #galeria{
+        width: 150px;
+        display: none;
+    }
+    
+    #rezerwacja{
+        width: 210px;
+        display: none;
+    }
+    
+    #kontakt
+    {
+        width: 150px;
+        background-color: dimgray;
+        border: 3px solid white;
+        display: none;
+    }
+    
+    #galeria-obszar
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #galeria-sterowanie h1
+    {
+        color: white;
+        margin-top: 70px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    #galeria-sterowanie img
+    {
+        margin-top: 50px;
+        border-radius: 15px;
+        border: 3px solid pink;
+    }
+
+    #zdjo 
+    {
+        margin-bottom: 50px;
+    }
+    
+    #telefon{
+        display: none;
+    }
+
+    .zdjecie 
+    {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1440px)
+{
+    *
+    {
+        box-sizing: border-box;
+        font-family: 'Grechen Fuemen', cursive;
+    }
+    
+    body
+    {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #kontener
+    {
+        width: 100%;
+        float: left;
+        background-image: url('./Tla/1j.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #menu-obszar
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #menu
+    {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #menu a{
+        text-decoration: none;
+    }
+    
+    .menu-przycisk
+    {
+        width: 120px;
+        height: 80px;
+        background-color: transparent;
+        border: 3px solid pink;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        padding: 15px;
+        border-radius: 15px;
+        transition: all 0.3s;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #galeria{
+        width: 150px;
+        display: none;
+    }
+    
+    #rezerwacja{
+        width: 210px;
+        display: none;
+    }
+    
+    #kontakt
+    {
+        width: 150px;
+        background-color: dimgray;
+        border: 3px solid white;
+        display: none;
+    }
+    
+    #galeria-obszar
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #galeria-sterowanie h1
+    {
+        color: white;
+        margin-top: 70px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    #galeria-sterowanie img
+    {
+        margin-top: 50px;
+        border-radius: 15px;
+        border: 3px solid pink;
+        width: 750px;
+        height: 750px;
+    }
+
+    #zdjo 
+    {
+        margin-bottom: 50px;
+    }
+    
+    #telefon{
+        display: none;
+    }
+
+    .zdjecie 
+    {
+        width: 750px;
+        height: 750px;
+    }
+}
