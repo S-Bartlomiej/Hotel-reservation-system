@@ -1,2 +1,2 @@
-# Rezerwacja-Hotelowa
+# Hotel reservation system
 Javascript, html, css
